@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="quiz-app">
+      <div class="quiz-info">
+        <div class="category">Category: <span>HTML</span></div>
+        <div class="count">Questions count: <span>10</span></div>
+      </div>
+      <div class="quiz-area">
+        <h2>Why We Use &lt;br&gt; Element ?</h2>
+      </div>
+      <div class="answers-area">
+        <div class="answer">
+          <input type="radio" id="answer_1" name="questions" />
+          <label for="answer_1">To Make Text Bold.</label>
+        </div>
+        <div class="answer">
+          <input type="radio" id="answer_2" name="questions" />
+          <label for="answer_2">To Make Text Italic.</label>
+        </div>
+        <div class="answer">
+          <input type="radio" id="answer_3" name="questions" />
+          <label for="answer_3">To Add Breakline.</label>
+        </div>
+        <div class="answer">
+          <input type="radio" id="answer_4" name="questions" />
+          <label for="answer_4">To Create Horizontal Line.</label>
+        </div>
+      </div>
+      <button class="submit-button">Submit answer</button>
+      <div class="bullets">
+        <div class="spans">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="countdown">
+          <span class="minutes">02</span> : <span class="seconds">45</span>
+        </div>
+      </div>
+      <div class="results"></div>
+    </div>
+    <a
+      href="https://www.youtube.com/watch?v=7ULVhkRw2GE&list=PLDoPjvoNmBAz7_BgzvNcOaE-m_SnE4jiT&index=40"
+      target="blank"
+      >Video Of The Course</a
+    >
+    <script src="main.js"></script>
+  </body>
+</html>
